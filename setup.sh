@@ -17,10 +17,6 @@ echo -e 'fi'                                            >> ~/.bashrc
 source ~./bashrc
 ##########################################################################
 
-conda install -c -y conda-forge jupyter_contrib_nbextensions
-conda install -c -y defusco jupyter-vim-binding
-conda install -c -y ericmjl environment_kernels
-
 jupyter notebook --generate-config
 SHA_TMP=`ipython -c 'from IPython.lib import passwd; passwd()' | cut -d' ' -f2`
 echo -e "c.NotebookApp.ip = '0.0.0.0'"                                                                 >> ~/.jupyter/jupyter_notebook_config.py
