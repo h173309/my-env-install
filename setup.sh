@@ -12,9 +12,9 @@ sh Anaconda3-2018.12-Linux-x86_64.sh
 # add Anaconda to PATH
 echo -e "# added by Anaconda3 installer"                >> ~/.bashrc
 echo -e 'if [ -d "${HOME}/anaconda3" ] ; then'          >> ~/.bashrc
-echo -e '  export PATH=\"${HOME}/anaconda3/bin:$PATH\"' >> ~/.bashrc
+echo -e '  export PATH=${HOME}/anaconda3/bin:$PATH'     >> ~/.bashrc
 echo -e 'fi'                                            >> ~/.bashrc
-source ~./bashrc
+source ~/.bashrc
 ##########################################################################
 
 jupyter notebook --generate-config
