@@ -13,3 +13,5 @@ conda install nltk -y
 conda install pillow -y
 conda install pydotplus -y
 ## conda install pydot -y
+
+conda install paramiko -y
