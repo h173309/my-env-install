@@ -1,3 +1,4 @@
 # jupyter-install
 
-template install for jupyter
+## Template installation for jupyter
+## They means installation log regarding my-env
