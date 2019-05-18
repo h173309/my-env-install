@@ -1,6 +1,3 @@
-conda create -n #name
-conda activate #name
-
 conda install matplotlib -y
 conda install pandas -y
 conda install scikit-learn -y
