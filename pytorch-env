@@ -1,0 +1,6 @@
+conda install jupyter -y
+conda install matplotlib -y
+conda install pandas -y
+conda install scikit-learn -y
+
+conda install pytorch torchvision -c soumith -y
