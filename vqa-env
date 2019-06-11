@@ -13,4 +13,5 @@ conda install pydotplus -y
 ## conda install pydot -y
 
 conda install paramiko -y
-conda install -c conda-forge opencv
+conda install -c conda-forge opencv -y
+conda install -c https://conda.anaconda.org/menpo opencv3 -y
