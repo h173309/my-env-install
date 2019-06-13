@@ -25,7 +25,7 @@ source ~/.bashrc
 jupyter notebook --generate-config
 
 # SHA_TMP < sha_hash
-SHA_TMP=`ipython -c 'from IPython.lib import passwd; passwd()' | cut -d' ' -f2`
+SHA_TMP=`ipython -c 'from IPython.lib import passwd; passwd()' | cut -d' ' -f3`
 # allow all ip
 echo -e "c.NotebookApp.ip = '0.0.0.0'"                                                                 >> ~/.jupyter/jupyter_notebook_config.py
 echo -e "c.NotebookApp.password = u${SHA_TMP}"                                                         >> ~/.jupyter/jupyter_notebook_config.py
