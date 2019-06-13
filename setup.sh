@@ -1,6 +1,6 @@
 #!/bin/sh
 ## author h173309
-## 20190518
+## 20190613
 
 cd ~
 
@@ -8,7 +8,7 @@ cd ~
 ## install Anaconda 3 ####################################################
 ##########################################################################
 # if your OS is Linux
-wget https://repo.anaconda.com/archive/Anaconda3-2018.12-Linux-x86_64.sh
+wget https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
 
 sh Anaconda3-2018.12-Linux-x86_64.sh
 # add Anaconda to PATH
