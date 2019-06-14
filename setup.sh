@@ -10,7 +10,7 @@ cd ~
 # if your OS is Linux
 wget https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
 
-sh Anaconda3-2018.12-Linux-x86_64.sh
+sh Anaconda3-2019.03-Linux-x86_64.sh
 # add Anaconda to PATH
 echo -e "# added by Anaconda3 installer"                >> ~/.bashrc
 echo -e 'if [ -d "${HOME}/anaconda3" ] ; then'          >> ~/.bashrc
