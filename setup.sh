@@ -37,5 +37,8 @@ echo -e "c.NotebookApp.kernel_spec_manager_class = 'environment_kernels.Environm
 echo -e "c.EnvironmentKernelSpecManager.conda_env_dirs=['${HOME}/anaconda3/envs/']"                    >> ~/.jupyter/jupyter_notebook_config.py
 unset SHA_TMP
 
-# enable to change conda-env in jupyter notebook
+# enable to change conda-env in jupyter
 pip install environment_kernels
+# enable to Tensorboard in jupyter
+pip install jupyter-tensorboard
+
