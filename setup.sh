@@ -39,6 +39,7 @@ unset SHA_TMP
 
 # enable to change conda-env in jupyter
 pip install environment_kernels
-# enable to Tensorboard in jupyter
+# enable Tensorboard in jupyter
 pip install jupyter-tensorboard
-
+# enable yapf that is code formater  
+pip install yapf
