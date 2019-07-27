@@ -41,5 +41,5 @@ unset SHA_TMP
 pip install environment_kernels
 # enable Tensorboard in jupyter
 pip install jupyter-tensorboard
-# enable yapf that is code formater  
-pip install yapf
+## enable yapf that is code formater  
+# pip install yapf
