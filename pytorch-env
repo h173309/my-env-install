@@ -4,3 +4,4 @@ conda install pandas -y
 conda install scikit-learn -y
 
 conda install pytorch torchvision -c soumith -y
+# conda install pytorch torchvision cudatoolkit=9.0 -c pytorch
